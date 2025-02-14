@@ -6,7 +6,7 @@ import deegadgetImg from "@/assets/deegadgetsImg.jpeg"
 import Image from 'next/image'
 export default function Why() {
   return (
-    <div className='xs:max-w-[990px] mx-auto block w-full xs:py-14 py-8 px-4 overflow-x-hidden'>
+    <div className='xs:max-w-[990px] mx-auto block w-full xs:py-14 py-8 px-4 overflow-hidden'>
     <div className='relative top-[-200px]' id="why"></div>
     <h1 className='font-bold xs:text-3xl text-xl text-black italic mb-8 xxs:hidden flex'>Why</h1>
     <motion.div 
@@ -14,7 +14,7 @@ export default function Why() {
       whileInView={{ opacity: 1, y: 0 }} 
       transition={{ duration: 1, ease: "easeOut" }} 
       viewport={{ once: true }}
-      className='grid xs:grid-cols-2 grid-cols-1 gap-x-8'
+      className='grid xs:grid-cols-2 grid-cols-1 gap-x-8 overflow-hidden'
     >
       <motion.div
         initial={{ scale: 0.8, opacity: 0 }}
@@ -35,7 +35,7 @@ export default function Why() {
         whileInView={{ opacity: 1, x: 0 }} 
         transition={{ duration: 1.2, ease: "easeOut" }} 
         viewport={{ once: true }}
-        className='rounded-lg overflow-x-hidden xs:mt-0 mt-8'
+        className='rounded-lg overflow-hidden xs:mt-0 mt-8 '
       >
         <h1 className='font-bold text-xl text-black italic text-balance'>
           WHY YOU SHOULD WORK WITH A DIGITAL MARKETER/ SOCIAL MEDIA CREATOR
@@ -55,7 +55,7 @@ By working with a social media manager, businesses can save time and resources w
       whileInView={{ opacity: 1, y: 0 }} 
       transition={{ duration: 1, ease: "easeOut" }} 
       viewport={{ once: true }}
-      className='grid xs:grid-cols-2 grid-cols-1 gap-x-8 mt-12 auto-rows-auto items-stretch'
+      className='grid xs:grid-cols-2 grid-cols-1 gap-x-8 mt-12 overflow-hidden auto-rows-auto items-stretch'
     >
       <motion.div 
         initial={{ opacity: 0, x: -50 }} 
