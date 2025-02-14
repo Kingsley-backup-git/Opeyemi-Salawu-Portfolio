@@ -13,7 +13,7 @@ export default function MyValue() {
       id='myvalue'
       initial={{ opacity: 0, y: 50 }}
      whileInView={{ opacity: 1, y: 0 }}
-     viewport={{ once: true, amount: 0.5 }}
+     viewport={{ once: true}}
       transition={{ duration: 1, ease: 'easeInOut' }}
     >
       {/* Optional Motion div for added entry effect */}
@@ -24,8 +24,8 @@ export default function MyValue() {
         className='h-[400px]'
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        viewport={{ once: true, amount: 0.5 }}
-        transition={{ delay: 0.5, duration: 1 }}
+        viewport={{ once: true }}
+        transition={{ delay: 0.3, duration: .8 }}
       >
         <Image src={MissionImg} className='w-full xs:rounded-none rounded-xl h-full object-fill' width={500} height={400} alt='' />
       </motion.div>
@@ -35,7 +35,7 @@ export default function MyValue() {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true, amount: 0.5 }}
-        transition={{ delay: 0.7, duration: 1 }}
+        transition={{ delay: 0.3, duration: .8 }}
       >
         <h1 className='font-bold xs:text-3xl text-2xl text-black italic'>
           MISSION
@@ -56,8 +56,8 @@ export default function MyValue() {
         className='xs:col-span-3 col-span-1 xs:order-first order-last xs:mt-0 mt-8'
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
-        viewport={{ once: true, amount: 0.5 }}
-        transition={{ delay: 0.9, duration: 1 }}
+        viewport={{ once: true}}
+        transition={{ delay: 0.3, duration: .8 }}
       >
         <h1 className='font-bold xs:text-3xl text-2xl  text-black italic'>
           VISION
@@ -74,8 +74,8 @@ export default function MyValue() {
         className='col-span-2 h-[400px]'
         initial={{ opacity: 0, scale: 0.8 }}
         whileInView={{ opacity: 1, scale: 1 }}
-        viewport={{ once: true, amount: 0.5 }}
-        transition={{ delay: 1.2, duration: 1 }}
+        viewport={{ once: true }}
+        transition={{ delay: .3, duration: .8 }}
       >
         <Image src={VisionImg} className='w-full h-full object-cover object-top' width={800} height={200} alt='' />
       </motion.div>

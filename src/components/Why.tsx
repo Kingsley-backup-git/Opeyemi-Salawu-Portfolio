@@ -8,7 +8,7 @@ export default function Why() {
   return (
     <div className='xs:max-w-[990px] mx-auto block w-full xs:py-14 py-8 px-4 overflow-x-hidden'>
     <div className='relative top-[-200px]' id="why"></div>
-    <h1 className='font-bold xs:text-3xl text-xl text-black italic mb-8 xxs:hidden flex justify-center'>Why</h1>
+    <h1 className='font-bold xs:text-3xl text-xl text-black italic mb-8 xxs:hidden flex'>Why</h1>
     <motion.div 
       initial={{ opacity: 0, y: 50 }} 
       whileInView={{ opacity: 1, y: 0 }} 

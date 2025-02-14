@@ -56,7 +56,7 @@ export default function Contact() {
 
 <div className='flex gap-x-4 items-center'>
   <div className=''>
-<GrMail className='text-black w-full min-w-[20px] min-h-[20px]'/>
+<GrMail className='text-black w-full text-2xl'/>
 </div>
 <div>
 <h1 className='font-medium text-sm text-black'>Mail</h1>

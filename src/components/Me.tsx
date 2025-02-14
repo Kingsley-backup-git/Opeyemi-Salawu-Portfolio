@@ -104,7 +104,7 @@ export default function Me() {
 
         {/* Subheading with Text Animation */}
         <motion.div
-          className="xs:mt-6 mt-3 flex xs:flex-row flex-col justify-center relative xs:items-center"
+          className="xs:mt-6 mt-3 flex xs:flex-row flex-col justify-center relative items-center"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 1 }}
@@ -130,12 +130,12 @@ export default function Me() {
 
           {/* Animated Arrow Icon */}
           <motion.div
-            className="xs:absolute right-3 xs:top-3 top-10 xs:mt-0 mt-8 xs:text-3xl text-4xl"
+            className="xs:absolute right-3 xs:top-3   xs:mt-0 mt-8 xs:text-3xl text-4xl"
             animate={{ rotate: 360 }}
             transition={{ loop: Infinity, duration: 2 }}
           >
             <BsArrowRight className="text-black xs:flex hidden" />
-            <FaAngleDoubleDown className="text-black xs:hidden flex ms-auto  animate-bounce border border-black rounded-full p-2"/>
+            <FaAngleDoubleDown className="text-black xs:hidden flex  animate-bounce border border-black rounded-full p-2"/>
           </motion.div>
         </motion.div>
       </div>
