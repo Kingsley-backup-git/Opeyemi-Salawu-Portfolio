@@ -51,7 +51,7 @@ const contentHandler = (val:number)=> {
       <UserCard
       
   float
-    href='https://www.instagram.com/reel/C89PXihoHvR/'
+    href='https://www.instagram.com/reel/DFUz-KMoer3/'
     header='/contentOne.jpeg'
     stats={[{ name: "www.instagram.com", value: "👉 Tap to Watch Now!" }]}
   avatar='/myImage.jpeg'
@@ -62,7 +62,7 @@ const contentHandler = (val:number)=> {
 
 <UserCard
     float
-    href='https://www.instagram.com/reel/DFUz-KMoer3/'
+    href='https://www.instagram.com/reel/C89PXihoHvR/'
     header='/contentTwo.jpeg'
   avatar='/myImage.jpeg'
     name='Opeyemi Salawu'
