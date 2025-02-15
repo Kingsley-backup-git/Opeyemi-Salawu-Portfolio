@@ -123,7 +123,7 @@ const contentHandler = (val:number)=> {
       <UserCard
     float
     href='https://vm.tiktok.com/ZMkgJArPH/'
-    header='/crestVille.jpeg'
+    header='/crestVilleLogo.jpeg'
     stats={[{ name: "www.tiktok.com", value: "👉 Tap to Watch Now!" }]}
   avatar='/myImage.jpeg'
     name='Opeyemi Salawu'
@@ -157,7 +157,7 @@ const contentHandler = (val:number)=> {
 <UserCard
     float
     href='https://vm.tiktok.com/ZMkgJDMug/'
-    header='/crestVille.jpeg'
+    header='/crestVilleLogo.jpeg'
   avatar='/myImage.jpeg'
   stats={[{ name: "www.tiktok.com", value: "👉 Tap to Watch Now!" }]}
     name='Opeyemi Salawu'
@@ -169,7 +169,7 @@ const contentHandler = (val:number)=> {
 <UserCard
     float
     href='https://vm.tiktok.com/ZMkgJ1eWx/'
-    header='/crestVille.jpeg'
+    header='/crestVilleLogo.jpeg'
   avatar='/myImage.jpeg'
   stats={[{ name: "www.tiktok.com", value: "👉 Tap to Watch Now!" }]}
     name='Opeyemi Salawu'
@@ -231,7 +231,7 @@ const contentHandler = (val:number)=> {
 <UserCard
     float
     href='https://www.instagram.com/reel/C3sovM8oz1F/'
-    header='/crestVille.jpeg'
+    header='/crestVilleLogo.jpeg'
   avatar='/myImage.jpeg'
     name='Opeyemi Salawu'
          className=' snap-center'

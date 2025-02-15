@@ -22,9 +22,9 @@ export default function MyValue() {
     <div className='grid xs:grid-cols-2 grid-cols-1 gap-x-8'>
       <motion.div
         className='h-[400px]'
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
+        initial={{ opacity: 0,x: -50 }}
+        whileInView={{ opacity: 1, x:0 }}
+        viewport={{ once: true, amount: 0.5 }}
         transition={{ delay: 0.3, duration: .8 }}
       >
         <Image src={MissionImg} className='w-full xs:rounded-none rounded-xl h-full object-fill' width={500} height={400} alt='' />
@@ -32,8 +32,8 @@ export default function MyValue() {
 
       <motion.div
         className='xs:mt-0 mt-8'
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+        initial={{ opacity: 0,x: 50 }}
+        whileInView={{ opacity: 1, x:0 }}
         viewport={{ once: true, amount: 0.5 }}
         transition={{ delay: 0.3, duration: .8 }}
       >

@@ -73,7 +73,7 @@ export default function Steps() {
         whileInView={{ opacity: 1, scale: 1, transition: { duration: 1, ease: "easeOut", delay: 0.5 } }}
         viewport={{ once: true }}
       >
-        <Image src={StepImg} className='w-full h-full object-fill' width={300} height={200} alt='' />
+        <Image src={StepImg} className='w-full h-full xs:rounded-none rounded-xl object-fill' width={300} height={200} alt='' />
       </motion.div>
 
     </div>

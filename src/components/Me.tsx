@@ -131,8 +131,9 @@ export default function Me() {
           {/* Animated Arrow Icon */}
           <motion.div
             className="xs:absolute right-3 xs:top-3   xs:mt-0 mt-8 xs:text-3xl text-4xl"
-            animate={{ rotate: 360 }}
-            transition={{ loop: Infinity, duration: 2 }}
+            initial = {{x:-150}}
+            animate={{ rotate: 360,x:0 }}
+            transition={{ loop: Infinity, duration: 2, delay:.5 }}
           >
             <BsArrowRight className="text-black xs:flex hidden" />
             <FaAngleDoubleDown className="text-black xs:hidden flex  animate-bounce border border-black rounded-full p-2"/>

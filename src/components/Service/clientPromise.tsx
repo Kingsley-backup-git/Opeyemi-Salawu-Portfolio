@@ -16,7 +16,7 @@ export default function ClientPromise() {
         whileInView={{ opacity: 1, y: 0, transition: { duration: 1, type: 'spring', stiffness: 100 } }}
         viewport={{ once: true }}
       >
-        <Image src={PromiseImg} className='w-full h-full object-fill' width={300} height={200} alt='' />
+        <Image src={PromiseImg} className='w-full h-full xs:rounded-none rounded-xl object-fill' width={300} height={200} alt='' />
       </motion.div>
 
       {/* Text with motion animation */}

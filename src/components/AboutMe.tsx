@@ -3,10 +3,10 @@ import React from 'react'
 import Me from "@/assets/aboutMe.jpeg";
 import Image from "next/image"
 import { motion } from "motion/react"
-import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
-import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
+import Link from 'next/link';
+import { FaTiktok } from "react-icons/fa";
 export default function AboutMe() {
   return (
     <motion.div 
@@ -63,25 +63,25 @@ export default function AboutMe() {
             whileHover={{ scale: 1.2 }} 
             transition={{ type: "spring", stiffness: 300 }}
           >
-            <FaInstagram className='xs:text-2xl text-xl text-black'/>
+            <Link href= "https://www.instagram.com/anike_teee?igsh=YnJ1ZmVoZmVhaThp&utm_source=qr">
+            <FaInstagram className='xs:text-2xl text-xl text-black'/></Link>
           </motion.div>
           <motion.div 
             whileHover={{ scale: 1.2 }} 
             transition={{ type: "spring", stiffness: 300 }}
           >
-            <FaXTwitter className='xs:text-2xl text-xl text-black'/>
+             <Link href= "https://www.tiktok.com/@anikeszn">
+            <FaTiktok className='xs:text-2xl text-xl text-black'/>
+            </Link>
           </motion.div>
+       
           <motion.div 
             whileHover={{ scale: 1.2 }} 
             transition={{ type: "spring", stiffness: 300 }}
           >
-            <FaFacebookF className='xs:text-2xl text-xl text-black'/>
-          </motion.div>
-          <motion.div 
-            whileHover={{ scale: 1.2 }} 
-            transition={{ type: "spring", stiffness: 300 }}
-          >
+             <Link href= "https://www.linkedin.com/in/opeyemi-salawu-478b10195/?originalSubdomain=ng">
             <FaLinkedin className='xs:text-2xl text-xl text-black'/>
+            </Link>
           </motion.div>
         </motion.div>
       </motion.div>
